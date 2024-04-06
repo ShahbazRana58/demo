@@ -1,0 +1,21 @@
+.upper-most{
+    width: 100vw;
+    height: 45vh;
+    background-image: url(/images/grafica_help_center-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 425px) {
+    .upper-most{
+        height: 40vh;
+    }
+}
+nav{
+    background-color: rgba(0, 0, 255, 0.315) !important;
+}
+@media screen and (min-width: 992px) {
+    nav{
+        background-color: transparent !important;
+    }
+}
